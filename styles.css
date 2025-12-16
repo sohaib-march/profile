@@ -214,4 +214,136 @@ main:hover  section {
 
 a {
   text-decoration: none;
+
+}
+
+@media (min-height: 970px) {
+  main {
+    width: 70%;
+    height: 70%;
+  }
+
+  .name-container .name {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .header {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A3D64;
+  }
+
+.header .img-container {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom .icons img {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+
+  .header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(250, 250, 250, 1);
+    transition: all .2s;
+  }
+
+  .header img:hover {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+  }
+
+  .bottom {
+    width: 100%;
+    height: 60%;
+    background-color: #FCF9EA;
+    padding-top: 50px;
+  }
+
+  .bottom .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .bottom .text .name {
+    font-size: 50px;
+    font-weight: 500;
+    color: #001F3D;
+    margin-bottom: 0;
+  }
+
+  .bottom .text .job {
+    font-size: 30px;
+    color: gray;
+    margin-top: 0;
+  }
+
+  .bottom .text .quote {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    color: #547792;
+    margin-top: 10px;
+  }
+
+
+  .bottom .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+
+  }
+
+  .bottom .icons img {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+
+  .icons .img-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons .img-container:hover .tooltip {
+    opacity: 1;
+  }
+
+  .icons .img-container .tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 4px;
+    border-radius: 8px;
+    padding: 2px 4px;
+    bottom: -19px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ;
+    font-size: 18px;
+  }
 }
