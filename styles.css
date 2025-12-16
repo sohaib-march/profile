@@ -220,7 +220,7 @@ a {
 @media (min-height: 970px) {
   main {
     width: 70%;
-    height: 70%;
+    height: 60%;
   }
 
   .name-container .name {
@@ -311,7 +311,7 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 10%;
 
   }
@@ -347,3 +347,4 @@ a {
     font-size: 18px;
   }
 }
+
